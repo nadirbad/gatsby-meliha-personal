@@ -8,4 +8,4 @@ cta:
   ctaText: O meni
   ctaLink: /about
 ---
-Zovem se Meliha Badnjević,  po zvanju sam magistar farmacije i trenutno sam na specijalizaciji iz oblasti nutricionizma. Majka sam dvoje djece. Vjerujem da je pravilna prehrana jedini put ka očuvanju zdravlja i poboljšanju kvaliteta života.
+Zovem se Meliha Badnjević, po zvanju sam magistar farmacije i trenutno sam na specijalizaciji iz oblasti nutricionizma. Majka sam dvoje djece. Vjerujem da je pravilna prehrana jedini put ka očuvanju zdravlja i poboljšanju kvaliteta života.
