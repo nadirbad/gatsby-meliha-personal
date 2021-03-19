@@ -1,7 +1,7 @@
 ---
 template: index-page
 slug: /
-title: Meliha Badnjevic
+title: Meliha Badnjević
 tagline: Nutricionista
 featuredImage: /assets/pexels-trang-doan-1092730.jpg
 cta:
