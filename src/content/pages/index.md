@@ -3,7 +3,7 @@ template: index-page
 slug: /
 title: Meliha Badnjevic
 tagline: Nutricionista
-featuredImage: /assets/toa-heftiba-0rlfirsdvzu-unsplash.jpg
+featuredImage: /assets/pexels-trang-doan-1092730.jpg
 cta:
   ctaText: O meni
   ctaLink: /about
