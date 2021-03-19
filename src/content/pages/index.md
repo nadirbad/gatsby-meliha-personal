@@ -8,4 +8,4 @@ cta:
   ctaText: O meni
   ctaLink: /about
 ---
-Zovem se Meliha Badnjevic i po zvanju sam Magistar farmacije i specijalista iz oblasti nutricionizma. Na ovom blogu spojila sam moju ljubav prema nutricionizmu i pisanju, sa željom da na jednostavan način objasnim složene teme.
+Zovem se Meliha Badnjević,  po zvanju sam magistar farmacije i trenutno sam na specijalizaciji iz oblasti nutricionizma. Majka sam dvoje djece. Vjerujem da je pravilna prehrana jedini put ka očuvanju zdravlja i poboljšanju kvaliteta života.
