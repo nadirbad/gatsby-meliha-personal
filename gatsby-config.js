@@ -80,8 +80,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Foundation`,
-        short_name: `Foundation`,
+        name: `Meliha Badnjević | Nutricionista, Online, Sarajevo, Savjeti`,
+        short_name: `Meliha Badnjević`,
         start_url: `/`,
         background_color: `#f7f0eb`,
         theme_color: `#a2466c`,

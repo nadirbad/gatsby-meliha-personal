@@ -82,7 +82,7 @@ collections:
         file: "src/content/pages/contact.md"
         fields:
         - {label: "Template", name: "template", widget: "hidden", default: "contact-page" }
-        - {label: "Slug", name: "slug", widget: "hidden", default: "/contact" }
+        - {label: "Slug", name: "slug", widget: "hidden", default: "/kontakt" }
         - {label: "Title", name: "title", widget: "string"}
         - {label: "Body", name: "body", widget: "markdown"}
   - name: settings
