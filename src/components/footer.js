@@ -1,19 +1,24 @@
 /** @jsx jsx */
-import { jsx } from 'theme-ui'
-import { Link } from "gatsby"
-import { RiHeart2Line } from "react-icons/ri";
+import { jsx } from "theme-ui"
 
-const Footer = () => (
-  <footer 
-    className="site-footer"
-    sx={{
-      bg: 'primary'
-    }}
-  >
-    <div className="container">
-      <p>A GatsbyJS Starter for Netlify CMS, Made with <span className="icon -love"><RiHeart2Line/></span> by <Link to="/">Stackrole.com</Link></p>
-    </div>
-  </footer>
-)
+const Footer = () => {
+  const year = (new Date()).getFullYear();
+
+  return (
+    <footer
+      className="site-footer"
+      sx={{
+        bg: "primary",
+      }}
+    >
+      <div className="container">
+        <p>
+          © {year} - Sva prava zadržana. Zabranjeno preuzimanje sadržaja bez
+          dozvole autora.
+        </p>
+      </div>
+    </footer>
+  )
+}
 
 export default Footer

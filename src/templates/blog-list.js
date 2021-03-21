@@ -35,7 +35,10 @@ export const blogListQuery = graphql`
           id
           excerpt(pruneLength: 250)
           frontmatter {
-            date(formatString: "MMMM DD, YYYY")
+            date(
+              formatString: "DD. MMMM yyyy"
+              locale: "bs_BA"
+            )
             slug
 						title
 						featuredImage {
@@ -78,7 +81,7 @@ const Pagination = (props) => (
       {!props.isLast && (
         <li>
           <Link to={props.nextPage} rel="next">
-            Sljedeca <span className="icon -right"><RiArrowRightLine/></span>
+            Sljedeća <span className="icon -right"><RiArrowRightLine/></span>
           </Link>
         </li>
       )}
@@ -117,7 +120,7 @@ class BlogIndex extends React.Component {
           title={"Blog — Stranica " + currentPage + " od " + numPages}
           description={"Meliha Badnjevic blog stranica " + currentPage + " od " + numPages }
         />
-        <h1>Blog</h1>
+        <h1>Članci</h1>
         <div className="grids col-1 sm-2 lg-3">
           {posts}
         </div>

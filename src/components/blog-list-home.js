@@ -7,7 +7,7 @@ import PostCard from "./post-card"
 
 const PostMaker = ({ data }) => (
   <section className="home-posts">
-    <h2>Latest in <strong>Blog</strong> <span class="icon -right"><RiArrowDownLine/></span></h2>
+    <h2>Najnoviji <strong>članci</strong> <span class="icon -right"><RiArrowDownLine/></span></h2>
     <div className="grids col-1 sm-2 lg-3">
       {data}
     </div>
@@ -18,7 +18,7 @@ const PostMaker = ({ data }) => (
         variant: 'links.button'
       }}
     >
-      See more<span class="icon -right"><RiArrowRightSLine/></span>
+      Vidi više<span class="icon -right"><RiArrowRightSLine/></span>
     </Link>
   </section>
 )
@@ -38,7 +38,10 @@ export default function BlogListHome() {
                 id
                 excerpt(pruneLength: 250)
                 frontmatter {
-                  date(formatString: "MMMM DD, YYYY")
+                  date(
+                    formatString: "DD. MMMM yyyy"
+                    locale: "bs_BA"
+                  )
                   slug
                   title
                   featuredImage {
